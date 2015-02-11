@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+<item
+    android:id="@+id/title1"
+    android:title="first"
+    app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/title2"
+        android:title="second"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/title3"
+        android:title="third"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/title4"
+        android:title="result"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/title5"
+        android:title="LVArray"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/title6"
+        android:title="LVBase"
+        app:showAsAction="never"></item>
+
+
+</menu>
